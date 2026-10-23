@@ -1,0 +1,32 @@
+# NOEXI Advanced Image Downloader - Requirements
+# Python 3.8+ requis
+
+# Core HTTP / Web scraping
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Interface utilisateur et barres de progression
+rich>=13.0.0
+tqdm>=4.64.0
+
+# Traitement d'images
+Pillow>=9.5.0
+
+# Navigation headless (optionnel mais recommandé pour les sites dynamiques)
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+
+# Export de métadonnées
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Configuration
+PyYAML>=6.0
+
+# Téléchargement asynchrone (optionnel)
+aiohttp>=3.8.0
+aiofiles>=23.0.0
+
+# Utilitaires
+urllib3>=1.26.0
